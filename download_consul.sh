@@ -3,7 +3,7 @@ MARCH=$(uname -m)
 
 if   [[ $MARCH =~ ".*arm.*" ]] ; then
   ARCH="arm"
-elif [[ $MARCH =~ "86$" ]]     ; then
+elif [[ $MARCH =~ "i686" ]]     ; then
   ARCH="386"
 elif [  $MARCH == "x86_64" ]   ; then
   ARCH="amd64"

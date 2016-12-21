@@ -22,4 +22,4 @@ else
   wget $URL
 fi
 
-unzip $ZIP
+yes | unzip $ZIP
